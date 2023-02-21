@@ -1,6 +1,5 @@
-
-a = int(input())
 b = int(input())
+a = int(input())
 if b>a:
     c=b-a
 elif b<a:
