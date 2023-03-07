@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+c = (a+b)/2
+import math
+d = math.sqrt(a*b)
+print("среднееарифметическое=",c)
+print("средне геометрическое=",d)
