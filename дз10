@@ -1,0 +1,8 @@
+a = int(input("Основание= "))
+b = int(input("Основание= "))
+h = int(input("Высота= "))
+l = h*2+((a-b)/2)*2
+import math
+c = math.sqrt(l)
+P = a+b+2*c
+print(P)
