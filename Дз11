@@ -1,0 +1,4 @@
+v = int(input("Объем= "))
+m = int(input("Масса= "))
+p = m/v
+print(p)
