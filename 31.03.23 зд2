@@ -1,0 +1,9 @@
+number = int(input("Введите трехзначное число пробега: "))
+day = int(input("Введите число дня: "))
+summa = 0
+if summa > day:
+    print("Сброс")
+    number = 0
+else:
+    print("Сегодня не сломался")
+    print("Пробег:", number)
