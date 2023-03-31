@@ -1,0 +1,8 @@
+number1 = int(input("Введите первое число: "))
+number2 = int(input("Введите второе число: "))
+sum_guess = int(input("Введите предполагаемую сумму: "))
+
+if number1 + number2 == sum_guess:
+    print("Правильный ответ!")
+else:
+    print("Неверный ответ. Правильный результат:", number1 + number2)
