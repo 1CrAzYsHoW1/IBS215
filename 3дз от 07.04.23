@@ -1,0 +1,6 @@
+import math
+
+i = 1
+while i < 21:
+    print(math.exp(i))
+    i += 1
