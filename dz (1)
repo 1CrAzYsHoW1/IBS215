@@ -1,5 +1,5 @@
 peremenya = 10
-stroka = "Всем пиривет!"
+stroka = "hello world"
 def func1(num):
  n = num * 5
  print(n)
