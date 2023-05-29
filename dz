@@ -1,7 +1,0 @@
-def func1(num):
-    n = num * 5
-    print(n)
-    func1(a)
-    func1(5)
-    func1(["Hello World"])
-func1()
