@@ -3,6 +3,6 @@ stroka = "hello world"
 def func1(num):
  n = num * 5
  print(n)
-func1(peremenya)
-func1(stroka)
-func1(1)
+ func1(peremenya)
+ func1(stroka)
+ func1(1)
