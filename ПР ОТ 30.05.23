@@ -1,0 +1,7 @@
+god= int(input("Введите год:"))
+def is_year_leap(god):
+    if god % 4 == 0 and (god % 100 != 0 or god % 400 == 0):
+        return print("Год високосный")
+    else:
+        return print("Год не високосный")
+is_year_leap(god)
