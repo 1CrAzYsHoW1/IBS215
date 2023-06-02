@@ -1,0 +1,12 @@
+years= input("Введите количество лет для вклада: ")
+a = input("Введите сумму вклада: ")
+def bank(years,a):
+
+    try:
+        a = int(a)
+        years = int(years)
+        vsego= a*1.1**years
+        print("Итоговый вклад составляет:", vsego,"рублей")
+    except ValueError:
+        print("Допускаются только цифры")
+bank(years,a)
