@@ -1,0 +1,5 @@
+def dirReduc(arr):
+    Original_Plan = ' '.join(arr)
+    New_Plan = Original_Plan.replace('NORTH SOUTH', '').replace('EAST WEST', '').replace('SOUTH NORTH', '').replace('WEST EAST', '')
+    Final_Plan = New_Plan.split()   
+    return dirReduc(Final_Plan) if len(Final_Plan) < len(arr) else Final_Plan   
