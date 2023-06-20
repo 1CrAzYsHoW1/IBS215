@@ -1,0 +1,25 @@
+import unittest
+
+def decode(r):
+    
+   
+    num = int("".join([x for x in r if ord(x) < ord('A')]))
+    letters = [x for x in r if ord(x) >= ord('a')]
+    result = ""
+    d = dict()
+                            
+    
+    for i in range(ord('a')-97, ord('z')-96):
+        encodeVal = chr((i*num%26)+97)
+        
+       
+        if d.get(encodeVal) is None:
+            d[encodeVal] = chr(i+97)
+        else:
+            return "Impossible to decode"
+                                                                                                
+   
+    for letter in letters:
+        result += d[letter]
+                                                                                                                
+    return result
